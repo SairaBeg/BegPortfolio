@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="A portfolio website for Saira Beg that showcases past projects and contains contact information"
+    />
+    <meta name="author" content="Saira Beg" />
+    <meta name="keywords" content="Portfolio, HTML, CSS, Javascript" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/jpg"
+      href="images/favicon-modified.png"
+    />
+    <style></style>
+    <title>Saira Beg's Portfolio</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="inner_header">
+        <ul class="navigation">
+          <li class="social-list__item">
+            <a
+              class="social-list__link"
+              href="https://www.github.com/SairaBeg"
+              target="_blank"
+              >Github <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a
+              href="https://www.linkedin.com/in/saira-beg-9a7a68180/"
+              target="_blank"
+              class="social-list__link"
+              >Linkedin <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a
+              class="social-list__link"
+              href="BegSairaResume.docx.pdf"
+              target="_blank"
+              >Resume <i class="fa-brands fa-readme"></i>
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a class="social-list__link" href="contact.html"
+              >Contact Me <i class="fa-solid fa-pen"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <header>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link">Hello!</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#services" class="nav__link">What Can I Do?</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#about" class="nav__link">Who am I</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!--Intro-->
+      <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+          Hello! I'm <strong>Saira Beg</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">
+          front-end + back-end dev <i class="fa-solid fa-code"></i>
+        </p>
+        <img
+          src="images/SairaGraphic.png"
+          alt="a picture of Saira"
+          class="intro__img"
+          width="200"
+        />
+      </section>
+      <br />
+
+      <!--What Can I Do?-->
+      <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What Can I Do?</h2>
+        <div class="services">
+          <div class="service">
+            <h3>Back-End</h3>
+            <p>
+              I have experience with many back-end languages such as Java,
+              Python, SQL, C++, and PHP. I also have experience with Unit
+              Testing tools like JUnit.
+            </p>
+          </div>
+          <div class="service">
+            <h3>Front-End</h3>
+            <p>
+              I have experience with front-end languages such as HTML, CSS, and
+              JavaScript. I've used HTML in combination with PHP to create a
+              website for a client.
+            </p>
+          </div>
+          <div class="service">
+            <h3>Software Development Frameworks</h3>
+            <p>
+              I have experience with the Agile and Scrum methodologies for
+              software development. Using these methods, I have collaborated
+              with other developers in a team to create a product.
+            </p>
+          </div>
+        </div>
+        <a href="#work" class="btn">My Work</a>
+      </section>
+
+      <!--About Me-->
+      <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who Am I?</h2>
+        <p class="section__subtitle section__subtitle--about">
+          Software Developer in Virginia and North Carolina
+        </p>
+        <div class="about-me__body">
+          <p>
+            Hello! I am a software developer with a passion for creating
+            innovative and practical solutions. With a strong foundation in
+            programming languages such as Java, Python, and HTML, I am eager to
+            expand my skills and take on new challenges. I am a dedicated
+            learner who enjoys keeping up with the latest technologies and
+            programming trends.
+          </p>
+          <br />
+          <p>
+            I take a thoughtful and detail-oriented approach to problem-solving
+            and am committed to producing high-quality code that meets both
+            business requirements and industry standards. As a Computer Science
+            graduate, I am excited to grow my career and make meaningful
+            contributions to the tech industry.
+          </p>
+        </div>
+
+        <img
+          width="200"
+          src="images/instaProfile.jpg"
+          alt="About me Image"
+          class="about-me__img"
+        />
+      </section>
+
+      <!--My Work-->
+      <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My Work</h2>
+        <p class="section__subtitle section__subtitle--work">Projects</p>
+
+        <div class="portfolio">
+          <!--Portfolio item 1 Course Scheduler -->
+          <a
+            href="https://github.com/SairaBeg/CourseScheduler"
+            class="portfolio__item"
+            ><img
+              src="images/scheduler.png"
+              alt="portfolio item image 1"
+              class="portfolio__img"
+              style="height: 100%"
+          /></a>
+          <!--Portfolio item 2 Sentiment Analyzer -->
+          <a
+            href="https://github.com/SairaBeg/SentimentAnalyzer"
+            class="portfolio__item"
+            ><img
+              src="images/sentiment_analysis.jpg"
+              alt="portfolio item image 2"
+              class="portfolio__img"
+              style="height: 100%"
+          /></a>
+          <!--Portfolio item 3 Greyscale Converter -->
+          <a
+            href="https://github.com/SairaBeg/GreyscaleConverter"
+            class="portfolio__item"
+            ><img
+              src="images/gray.jpeg"
+              alt="portfolio item image 3"
+              class="portfolio__img"
+              style="height: 100%"
+          /></a>
+          <!--Portfolio item 4 Spell-Checker-->
+          <a
+            href="https://github.com/SairaBeg/Spell-Checker"
+            class="portfolio__item"
+            ><img
+              src="images/misspell.png"
+              alt="portfolio item image 4"
+              class="portfolio__img"
+              style="height: 100%; width: 100%"
+          /></a>
+          <!-- Portfolio item 5 Angels on Wheels -->
+          <a
+            href="https://github.com/MicahHarlan/AngelsOnWheels"
+            class="portfolio__item"
+            ><img
+              src="images/angelsCropped.png"
+              alt="portfolio item image 5"
+              class="portfolio__img"
+              style="height: 100%"
+          /></a>
+          <!--  Portfolio item 6 Database Class-->
+          <a
+            href="https://github.com/SairaBeg/db-class-350"
+            class="portfolio__item"
+            ><img
+              src="images/database.png"
+              alt="portfolio item image 6"
+              class="portfolio__img"
+              style="height: 100%"
+          /></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a href="mailto:sairabeg88@gmail.com" class="footer-link" target="_blank"
+        >SairaBeg88@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.github.com/SairaBeg"
+            target="_blank"
+            >Github <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            href="https://www.linkedin.com/in/saira-beg-9a7a68180/"
+            target="_blank"
+            class="social-list__link"
+            >Linkedin <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="BegSairaResume.docx.pdf"
+            target="_blank"
+            >Resume <i class="fa-brands fa-readme"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="contact.html" target="_blank"
+            >Contact Me <i class="fa-solid fa-pen"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>

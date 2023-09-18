@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Saira', sans-serif;
+    font-size: 18px;
+}   
+:root{
+    --color-primary: #e32c8c;
+    --color-secondary: #4bd1fd;
+    --color-tertiary: #7149ea;
+    --color-forth: #fe60b2;
+    --color-white: #f1f1f1;
+    --color-black:#000;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+    margin:0;
+    background-color:  var(--color-primary);
+    overflow:hidden;
+    text-align: center;
+}
+
+input{
+    width: 100%;
+    padding: 6px;
+    outline: none;
+    border:none;
+    margin: 6px 0px;
+}
+
+.form{
+    margin-top: 1.3em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    width: 800px;
+    padding: 20px; 
+    background-color:  var(--color-tertiary);
+    border: solid var(--color-secondary) 1em;
+    display: inline-block;
+}
+
+.textbox{
+    height: 175px;
+    padding-bottom: 150px;
+}
+#btn{
+ width: 150px;
+ padding: 6px;
+ cursor: pointer;
+}
+
+.header{
+    background-color: #000;
+    width: 100%;
+    height: 48px;
+    
+    padding-top: .4em;
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.inner_header{
+    width: 1000px;
+    height: 100%;
+   
+    margin: 0 auto;
+    padding: 0;
+    align-items: center;
+    padding-left: 1em;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.navigation{
+    display: flex; 
+    list-style: none;
+    height: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.navigation a{
+    height: 100%;
+    float: left;
+    padding: 6px 40px;
+    text-decoration: none;
+    color: var(--color-secondary);
+    font-weight: bold;
+    font-size: 20;
+}
+
+.social-list__link:hover{
+    opacity: .4;
+    transform: scale(1.1);
+}
+.social-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 2em 0 0;
+    padding: 0;
+}
+
+.social-list__item{
+    margin: 0 .5em;
+}
